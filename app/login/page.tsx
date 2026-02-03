@@ -130,12 +130,6 @@ export default function LoginPage() {
                 {loading ? "Signing in..." : "Sign in"}
               </Button>
             </form>
-
-            <div className="mt-6 text-center">
-              <p className="text-sm text-gray-600">Demo credentials:</p>
-              <p className="text-xs text-gray-500 mt-1">Admin: learnhub@gmail.com / learn123</p>
-              <p className="text-xs text-gray-500">Student: any email / any password</p>
-            </div>
           </CardContent>
         </Card>
       </div>
